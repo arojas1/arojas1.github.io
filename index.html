@@ -8,24 +8,30 @@
         }
 
         .header {
-            text-align: center;
             padding: 20px;
+            text-align: center;
+            background-image: url("images/italy-arch-site.png");
+            background-size: 2000px 200px;
+        }
+
+        .transparentbox {
+            background-size: 1000px 200px;
+            background: rgba(255, 255, 255, .5);
         }
 
         .leftcolumn{
             float: left;
-            width: 80%;
+            width: 75%;
+            padding: 10px;
+            margin: 30px;
+            box-sizing: border-box;
         }
 
         .rightcolumn {
             width: 20%;
             float: left;
             padding: 5px;
-        }
-
-        .column.middle{
-            width: 50%;
-            padding: 5px;
+            box-sizing: border-box;
         }
 
         .row:after {
@@ -38,6 +44,7 @@
         .topnav {
             overflow: hidden;
             background-color: #333;
+            margin: 15px;
         }
 
         /* Navbar links */
@@ -74,7 +81,9 @@
 
 <body>
     <div class="header">
+        <div class="transparentbox">
             <h1>Virtual Reality Database</h1>
+        </div>
     </div>
 
     <div class="topnav">
@@ -91,13 +100,11 @@
         </div>
 
         <div class="rightcolumn">
-            <p style="text-align: center;">
-                <a class="twitter-timeline" data-width="250" data-height="1000" data-theme="dark" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">
-                    Tweets by TwitterDev
-                </a> 
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
-                </script> 
-            </p>
+            <a class="twitter-timeline" data-tweet-limit="5" data-width="220" data-chrome="noscrollbar" data-theme="light" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">
+                Tweets by TwitterDev
+            </a> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+            </script>
         </div>
     </div>
 <!-- End of Body with colums -->
