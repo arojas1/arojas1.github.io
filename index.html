@@ -6,6 +6,30 @@
             padding: 20px;
         }
 
+        .column{
+            float: left;
+        }
+
+        .column.side {
+            width: 25%
+        }
+
+        .column.middle{
+            width: 75%
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media screen and (max-width: 600px){
+            .column.side, .column.middle {
+                width: 100%;
+            }
+        }
+
         .footer {
             background-color: #F1F1F1;
             text-align: center;
@@ -19,6 +43,17 @@
     <div class="header">
         <h1>header</h1>
     </div>
+    
+    <div class="column side">
+        <h2>Side</h2>
+        <p>Test Text Here</p>
+    </div>
+
+    <div class="column middle">
+        <h2>Middle</h2>
+        <p>Test Text Here</p>
+    </div>
+
 
     <div class="footer">
         <h1>footer</h1>
