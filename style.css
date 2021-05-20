@@ -11,7 +11,8 @@ html {
   margin: 0px;
 }
 .header h1 {
-  font-family: open-sans-condensed;
+  font-family: open-sans-condensed, sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: 80px;
   color: #FFFFFF;
@@ -31,7 +32,8 @@ html {
   padding-right: 10px;
   text-align: center;
   display: inline-block;
-  font-family: open-sans-condensed;
+  font-family: open-sans-condensed, sans-serif;
+  font-weight: 300;
   font-style: normal;
   color: #FFFFFF;
   letter-spacing: 2px;
@@ -39,7 +41,8 @@ html {
 }
 body {
   margin: 0px;
-  font-family: open-sans-condensed;
+  font-family: open-sans-condensed, sans-serif;
+  font-weight: 300;
   font-size: 18px;
 }
 #backhomebtn {
@@ -51,7 +54,8 @@ body {
   z-index: 99;
   cursor: pointer;
   font-size: 15px;
-  font-family: open-sans-condensed;
+  font-family: open-sans-condensed, sans-serif;
+  font-weight: 300;
   padding: 5px;
   border-radius: 5px;
   background-color: #ABABAB;
@@ -82,10 +86,12 @@ a.footer, a.footer:hover, a.divider-footer {
   color: #FFFFFF;
   letter-spacing: 2px;
   text-shadow: 4px 3px 6px #000000;
-  font-family: open-sans-condensed;
+  font-family: open-sans-condensed, sans-serif;
+  font-weight: 300;
 }
 h2 {
-  font-family: open-sans-condensed;
+  font-family: open-sans-condensed, sans-serif;
+  font-weight: 300;
   text-align: center;
   font-size: 40px;
   width: 95%;
@@ -262,7 +268,8 @@ footer {
   display: inline-block;
   font-style: normal;
   color: #FFFFFF;
-  font-family: open-sans-condensed;
+  font-family: open-sans-condensed, sans-serif;
+  font-weight: 300;
 }
 .footer-col75 {
   display: block;
@@ -351,7 +358,8 @@ footer {
 	  margin: 0px;
 	}
 	.header h1 {
-	  font-family: open-sans-condensed;
+	  font-family: open-sans-condensed, sans-serif;
+    font-weight: 300;
 	  font-style: normal;
 	  font-size: 80px;
 	  letter-spacing: 2px;
