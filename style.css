@@ -140,6 +140,13 @@ h4.date {
   padding-right: 10px;
   font-weight: 500;
 }
+h5.link{
+  word-wrap: break-word;
+}
+img.link{
+  height: 15px;
+  padding-right: 10px;
+}
 h4.education {
   margin-top: 15px;
   font-weight: 700;
