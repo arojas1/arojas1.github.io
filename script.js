@@ -23,11 +23,11 @@ function topFunction() {
 }
 
 d3.csv("workinfo.csv", d3.autoType).then(data=>{
-    console.log(data)
+    console.log(data.filter(d => d.Show === "Y"))
 
     const exrows = d3.select("#experience")
         .selectAll(".section row")
-        .data(data)
+        .data(data.filter(d => d.Show === "Y"))
         .join("div")
         .attr("class", "section row")
 
