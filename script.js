@@ -73,7 +73,7 @@ d3.csv("/data/workinfo.csv", d3.autoType).then(data=>{
             .attr("class", "location")
             .text(d.Location)
 
-        if(d.Link != null){
+        if(d.URL != null){
             rightcolumn
                 .append("h5")
                 .attr("class", "link")
@@ -84,9 +84,9 @@ d3.csv("/data/workinfo.csv", d3.autoType).then(data=>{
 
             rightcolumn
                 .select("h5.link").append("a")
-                    .attr("href", d.Link)
+                    .attr("href", d.URL)
                     .attr("target", "_blank")  
-                    .text(d.Link)
+                    .text(d.LinkName)
         }
 
         rightcolumn
