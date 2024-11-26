@@ -1,4 +1,5 @@
 SkillLongDescr,SkillShortDescr,SkillType,Show
+Django & Django REST Framework API,Django & Django REST Framework API,Programming,Y
 Plone CMS (Open Source Content Management System),PloneCMS,Software,Y
 Oracle's PeopleSoft Enterprise Campus Solutions 9.0 (i.e. CUNYfirst),PeopleSoft (CUNYfirst),Software,Y
 SQL Server Management Studio (SSMS),SQL Server Management Studio (SSMS),Software,Y
@@ -15,3 +16,4 @@ Intermediate Spanish; Intermediate Ancient Greek; Beginner Italian,Intermediate 
 Zammad,Zammad,Software,N
 ClickUp,ClickUp,Software,N
 Slack,Slack,Software,N
+Figma,Figma,Software,Y
